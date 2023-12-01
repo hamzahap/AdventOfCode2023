@@ -20,7 +20,6 @@ program day1
         read(unit, '(A)', iostat=iostat) line
         if (iostat /= 0) exit 
 
-        ! Reset variables for each line
         first_found = .false.
         first = 0
         last = 0
